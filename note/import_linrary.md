@@ -2,6 +2,8 @@
 
 主要参考了 zeromq 编译后生成的 `ZeroMQTargets.cmake` 文件，对 Release、Debug 引入不同的配置，参考如下：
 
+* 添加静态库要注意 INTERFACE_LINK_LIBRARIES ，没有相关设置可能会报错无法解析的外部符号
+
 ```cmake
 # Create imported target libzmq
 add_library(libzmq SHARED IMPORTED)
