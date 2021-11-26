@@ -4,7 +4,7 @@
 //  Connects PUSH socket to tcp://localhost:5558
 //  Sends results to sink via that socket
 
-#include "zhelpers.h"
+#include "../zhelpers.h"
 
 int main(void)
 {

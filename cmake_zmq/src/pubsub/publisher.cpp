@@ -2,7 +2,7 @@
 //  Binds PUB socket to tcp://*:5556
 //  Publishes random weather updates
 
-#include "zhelpers.h"
+#include "../zhelpers.h"
 #include <thread>
 
 int main(void)

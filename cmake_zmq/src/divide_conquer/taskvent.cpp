@@ -2,7 +2,7 @@
 //  Binds PUSH socket to tcp://localhost:5557
 //  Sends batch of tasks to workers via that socket
 
-#include "zhelpers.h"
+#include "../zhelpers.h"
 
 int main(void)
 {
