@@ -12,8 +12,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 ## import libevent
 
 # 同时导入动态库、静态库需要参考 LibeventConfig.cmake 自行导入
-set(Libevent_DIR "D:/source_code/libevent/libevent-vs2019")
-set(LIBEVENT_STATIC_LINK true)
+set(Libevent_DIR "E:/source_code/libevent/install")
+#set(LIBEVENT_STATIC_LINK true)
 find_package(Libevent REQUIRED COMPONENTS core)
 
 add_subdirectory(src)
